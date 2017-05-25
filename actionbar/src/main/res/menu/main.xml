@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:icon="@android:drawable/ic_menu_search"
+        android:title="UI"
+        app:showAsAction="always"></item>
+
+    <group android:checkableBehavior="all">
+        <item
+            android:id="@+id/web_client"
+            android:title="前端"
+            app:showAsAction="collapseActionView"></item>
+        <item
+            android:id="@+id/c_plus"
+            android:title="C++"
+            app:showAsAction="collapseActionView"></item>
+    </group>
+
+    <item
+        android:title="Java"
+        app:showAsAction="collapseActionView">
+        <menu>
+            <item android:title="Android" android:id="@+id/android" app:showAsAction="collapseActionView"></item>
+            <item android:title="Java ee" android:id="@+id/javaee" app:showAsAction="collapseActionView"></item>
+        </menu>
+    </item>
+
+</menu>
