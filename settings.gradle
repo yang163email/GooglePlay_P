@@ -1,1 +1,1 @@
-include ':app', ':actionbar'
+include ':googleplay1.1', ':actionbar', ':googleplay1.0', ':toolbar', ':flowlayoutlib', ':demo'
